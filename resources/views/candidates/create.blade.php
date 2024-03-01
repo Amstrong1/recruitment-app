@@ -53,19 +53,19 @@
                 </div>
                 <div class="md:w-1/2 md:px-20">
                     <div class="mb-4 text-xl">
-                        Une entreprise de renommé nationale et internationale recherche pour le compte de ces activités
-                        des agents commerciaux
+                        Nous <a href="https://vibecro-corp.tech">Vibecro</a>, recherchons pour le compte de nos activités
+                        des commerciaux
                     </div>
                     <h2 class="text-2xl font-bold mb-2">Détails de l'offre</h2>
                     <ul class="list-disc ms-8 mb-4">
                         <li>
-                            Nombre de postes à pourvoir : 10
+                            Nombre de postes à pourvoir : 12
                         </li>
                         <li>
-                            Type de contrat :
+                            Type de contrat : CDD
                         </li>
                         <li>
-                            Lieu du travail :
+                            Lieu du travail : Sur toute l'étendue du territoire nationale
                         </li>
                     </ul>
 
