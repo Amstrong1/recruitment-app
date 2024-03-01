@@ -14,7 +14,8 @@
     </header>
 
     <main style="background: #fff; padding: 20px; margin: 50px">
-
+        <p> Votre candidature a bien été recu est sera pris en compte.</p>
+        <p> Vous recevrez une réponse après étude de votre dossier.</p>
     </main>
 
     <footer>
