@@ -32,8 +32,11 @@
 <body>
     <header>
         <div class="h-screen bg-neutral-50 py-24 px-6 text-center dark:bg-neutral-900">
-            <h1 class="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                Recrutement <br /><span class="text-primary">d'agents commerciaux</span>
+            <h1 class="mt-2 mb-16 text-2xl font-bold tracking-tight md:text-3xl xl:text-5xl">
+                OPPORTUNITE DE CARRIERE <br /><br />
+                <span class="text-primary text-xl md:text-2xl xl:text-3xl">
+                    Devenez commercial(e) en solutions
+                    numériques <br class="hidden md:block"> chez VIBECRO CORPORATION</span>
             </h1>
 
             <p id="" class="text-xl m-2">Cette offre expire dans</p>
@@ -51,10 +54,13 @@
                 <div class="md:w-1/2 p-4">
                     <img src="{{ asset('img/apply.svg') }}" alt="worker">
                 </div>
-                <div class="md:w-1/2 md:px-20">
-                    <div class="mb-4 text-xl">
-                        Nous <a href="https://vibecro-corp.tech">Vibecro</a>, recherchons pour le compte de nos activités
-                        des commerciaux
+                <div class="md:w-1/2 md:px-10">
+                    <div class="mb-4 text-lg">
+                        <a class="text-primary" href="https://vibecro-corp.tech">Vibecro</a>, une entreprise de premier
+                        plan spécialisée dans les services
+                        numériques, le développement d'applications web et mobile, ainsi que
+                        l'accompagnement des entreprises dans leur processus de digitalisation, est
+                        à la recherche de talents pour renforcer son équipe commerciale.
                     </div>
                     <h2 class="text-2xl font-bold mb-2">Détails de l'offre</h2>
                     <ul class="list-disc ms-8 mb-4">
@@ -72,16 +78,31 @@
                     <h2 class="text-2xl font-bold mb-2">Mission de l'offre</h2>
                     <ul class="list-disc ms-8 mb-4">
                         <li>
-                            Prospection et développement de clientèle
+                            Mener des actions de prospection commerciale.
                         </li>
+                        <li>Convertir les prospects en clients par le biais d'appels téléphoniques, de
+                            rencontres en personne, et de la gestion des canaux de communication en
+                            ligne.
+                        </li>
+                        <li>Proposer nos services additionnels aux clients.</li>
+                        <li>Collaborer étroitement avec les différentes équipes internes pour
+                            intégrer les améliorations produites dans vos argumentaires commerciaux.</li>
+                        <li>Recueillir les retours clients sur nos solutions et les transmettre aux
+                            équipes concernées.</li>
+                        <li>Produire des rapports réguliers sur l'avancement des missions et des
+                            projets au quotidien.
+                        </li>
+                    </ul>
 
+                    <h2 class="text-2xl font-bold mb-2">Avantages</h2>
+                    <ul class="list-disc ms-8 mb-4">
                         <li>
-                            Suivi des ventes
+                            Package salarial attractif avec des commissions sur les ventes.
                         </li>
-
-                        <li>
-                            Relation client
-                        </li>
+                        <li>Formation continue et opportunités d'avancement professionnel.</li>
+                        <li>Proposer nos services additionnels aux clients.</li>
+                        <li>Environnement de travail dynamique au sein d'une entreprise en pleine
+                            croissance.</li>
                     </ul>
 
                     <a class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"

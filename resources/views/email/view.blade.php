@@ -13,12 +13,12 @@
         <h1 style="text-align: center">Vibecro Corporation</h1>
     </header>
 
-    <main style="background: #fff; padding: 20px; margin: 50px">
+    <main style="background: #fff; padding: 20px; margin: 50px; margin-bottom: 0">
         <p> Votre candidature a bien été recu est sera pris en compte.</p>
         <p> Vous recevrez une réponse après étude de votre dossier.</p>
     </main>
 
-    <footer>
+    <footer style="background: #fff; padding: 20px; margin: 50px; margin-top: 0">
         <p style="text-align: left">Cordialement</p>
         <p style="text-align: left">Vibecro Corporation</p>
         <p style="text-align: left"> Tel: 55 69 56 56 </p>

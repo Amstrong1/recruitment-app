@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Candidate;
 use App\Mail\NewCandidateMail;
+use App\Mail\NotifNewCandidateMail;
 use Illuminate\Support\Facades\Mail;
 use RealRashid\SweetAlert\Facades\Alert;
 use App\Http\Requests\StoreCandidateRequest;
@@ -52,6 +53,7 @@ class CandidateController extends Controller
 
         if ($candidate->save()) {
             Mail::to($request->email)->send(new NewCandidateMail());
+            Mail::to('rh@vibecro-corp.tech')->send(new NotifNewCandidateMail($candidate));
             Alert::success('Success', 'Votre candidature a bien été envoyée.');
             return redirect(route('home'));
         }
