@@ -105,6 +105,19 @@
                             croissance.</li>
                     </ul>
 
+                    <div class="my-2 font-bold text-red-500">
+                        <span class="underline">NB :</span> &nbsp;
+                        <span>Disposez d'un moyen de déplacement serait un atout.</span>
+                    </div>
+
+                    <div class="font-bold my-2">
+                        Pour plus d'informations : <a class="underline" href="tel:+22955695656">+229 55 69 56 56</a> / <a class="underline" href="tel:+22945337181"> +229 45 33 71 81</a>
+                    </div>
+
+                    <div class="font-bold my-2">
+                        Date d'expiration : 20 mars 2024
+                    </div>
+
                     <a class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
                         data-te-ripple-init data-te-ripple-color="light" href="#postuler" role="button">Postuler</a>
                 </div>
@@ -256,7 +269,7 @@
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Mar 15, 2024 18:00:00").getTime();
+        var countDownDate = new Date("Mar 20, 2024 18:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function() {
