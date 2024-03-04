@@ -54,6 +54,7 @@ class CandidateController extends Controller
         if ($candidate->save()) {
             Mail::to($request->email)->send(new NewCandidateMail());
             Mail::to('rh@vibecro-corp.tech')->send(new NotifNewCandidateMail($candidate));
+            Mail::to('contact@vibecro-corp.tech')->send(new NotifNewCandidateMail($candidate));
             Alert::success('Success', 'Votre candidature a bien été envoyée.');
             return redirect(route('home'));
         }
