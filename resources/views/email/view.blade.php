@@ -40,12 +40,6 @@
         <p style="font-style: italic; font-weight: bold">Le Chargé des Ressources Humaines</p>
         <p style="font-style: italic; font-weight: bold">Daniel Lauclair M. AGBODJIHOUEDE</p>
     </main>
-
-    <footer style="padding: 20px; margin: 50px;">
-        <p style="text-align: left">Cordialement</p>
-        <p style="text-align: left">Vibecro Corporation</p>
-        <p style="text-align: left"> Tel: 55 69 56 56 </p>
-    </footer>
 </body>
 
 </html>
