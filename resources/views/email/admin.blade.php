@@ -8,27 +8,27 @@
     <title>Email</title>
 </head>
 
-<body style="background: #ddd">
+<body>
     <header style="margin-top: 20px">
         <h1 style="text-align: center">Vibecro Corporation</h1>
     </header>
 
-    <main style="background: #fff; padding: 20px; margin: 50px; margin-bottom: 0">
+    <main style="padding: 20px; margin: 50px;">
         <p>Nouvelle candidature soumise</p>
         <ul>
-            <li style="margin: 5px 0px"> Nom : {{ $candidate->name }} </li>
-            <li style="margin: 5px 0px"> Date de naissance : {{ $candidate->birthday }} </li>
-            <li style="margin: 5px 0px"> Sexe : {{ $candidate->sex }} </li>
-            <li style="margin: 5px 0px"> Email : {{ $candidate->email }} </li>
-            <li style="margin: 5px 0px"> Tel : {{ $candidate->tel }} </li>
-            <li style="margin: 5px 0px"> Ville : {{ $candidate->city }} </li>
-            <li style="margin: 5px 0px"> Address : {{ $candidate->address }} </li>
-            <li style="margin: 5px 0px"> Diplome : {{ $candidate->diploma }} </li>
-            <li style="margin: 5px 0px"> Année d'experience : {{ $candidate->experience }} </li>
+            <li style="margin: 5px 0px"> <b>Nom</b> : {{ $candidate->name }} </li>
+            <li style="margin: 5px 0px"> <b>Date de naissance</b> : {{ $candidate->birthday }} </li>
+            <li style="margin: 5px 0px"> <b>Sexe</b> : {{ $candidate->sex }} </li>
+            <li style="margin: 5px 0px"> <b>Email</b> : {{ $candidate->email }} </li>
+            <li style="margin: 5px 0px"> <b>Tel</b> : {{ $candidate->tel }} </li>
+            <li style="margin: 5px 0px"> <b>Ville</b> : {{ $candidate->city }} </li>
+            <li style="margin: 5px 0px"> <b>Address</b> : {{ $candidate->address }} </li>
+            <li style="margin: 5px 0px"> <b>Diplome</b> : {{ $candidate->diploma }} </li>
+            <li style="margin: 5px 0px"> <b>Année d'experience</b> : {{ $candidate->experience }} </li>
         </ul>
     </main>
 
-    <footer style="background: #fff; padding: 20px; margin: 50px; margin-top: 0">
+    <footer style="padding: 20px; margin: 50px;">
         <p style="text-align: left">Cordialement</p>
         <p style="text-align: left">Vibecro Corporation</p>
         <p style="text-align: left"> Tel: 55 69 56 56 </p>
