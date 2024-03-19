@@ -57,6 +57,9 @@ class CandidateController extends Controller
             Mail::to('contact@vibecro-corp.tech')->send(new NotifNewCandidateMail($candidate));
             Alert::success('Félicitations', 'Votre candidature a bien été envoyée.');
             return redirect(route('home'));
+        } else {
+            Alert::error('Oops', 'Une erreur est survenue. Veuillez reessayer.');
+            return redirect('/#postuler');
         }
     }
 
