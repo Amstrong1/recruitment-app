@@ -32,7 +32,7 @@ class StoreCandidateRequest extends FormRequest
             'address' => 'required|string',
             'diploma' => 'required|string',
             'experience' => 'required',
-            'resume' => 'required|mimes:pdf|max:50000',
+            'resume' => 'required|mimes:pdf,doc,docx,odt,jpg,jpeg,png|max:50000',
             'cid' => 'required|mimes:jpg,jpeg,png|max:50000',
             'avatar' => 'required|mimes:jpg,jpeg,png|max:50000',
         ];

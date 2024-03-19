@@ -110,7 +110,8 @@
                     </div>
 
                     <div class="font-bold my-2">
-                        Pour plus d'informations : <a class="underline" href="tel:+22955695656">+229 55 69 56 56</a> / <a class="underline" href="tel:+22945337181"> +229 45 33 71 81</a>
+                        Pour plus d'informations : <a class="underline" href="tel:+22955695656">+229 55 69 56 56</a> /
+                        <a class="underline" href="tel:+22945337181"> +229 45 33 71 81</a>
                     </div>
 
                     <div class="font-bold my-2">
@@ -145,6 +146,7 @@
                             </label>
                             <input type="text" id="first_name" name="first_name" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('birthday')" class="mt-2" />
                         </div>
 
                         <!--Last name input-->
@@ -155,6 +157,7 @@
                             </label>
                             <input type="date" id="birthday" name="birthday" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('birthday')" class="mt-2" />
                         </div>
 
                         <!--Last name input-->
@@ -168,6 +171,7 @@
                                 <option value="F">Feminin</option>
                                 <option value="M">Masculin</option>
                             </select>
+                            <x-input-error :messages="$errors->get('sex')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -176,6 +180,7 @@
                             </label>
                             <input type="email" id="email" name="email" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('email')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -184,6 +189,7 @@
                             </label>
                             <input type="tel" id="tel" name="tel" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('tel')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -192,6 +198,7 @@
                             </label>
                             <input type="text" id="city" name="city" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('city')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -200,6 +207,7 @@
                             </label>
                             <input type="text" id="address" name="address" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('address')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -209,6 +217,7 @@
                             </label>
                             <input type="text" id="diploma" name="diploma" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('diploma')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -218,6 +227,7 @@
                             </label>
                             <input type="number" id="experience" name="experience" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('experience')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -226,6 +236,7 @@
                             </label>
                             <input type="file" id="resume" name="resume" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('resume')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -235,6 +246,7 @@
                             </label>
                             <input type="file" id="cid" name="cid" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('cid')" class="mt-2" />
                         </div>
 
                         <div class="relative mb-2">
@@ -244,6 +256,7 @@
                             </label>
                             <input type="file" id="avatar" name="avatar" required
                                 class="peer block min-h-[auto] w-full rounded border bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0" />
+                            <x-input-error :messages="$errors->get('avatar')" class="mt-2" />
                         </div>
 
                         <div class="mt-8 pb-10 md:pb-6 col-span-2">
@@ -264,7 +277,7 @@
             © 2024 Copyright
         </div>
     </footer>
-    
+
     @include('sweetalert::alert')
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
